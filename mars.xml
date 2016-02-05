@@ -1,22 +1,17 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_if" id="52" inline="false" x="19" y="5">
-    <value name="IF0">
-      <block type="sensor_object" id="44">
-        <field name="OBJECT">LEFTFRONT</field>
-      </block>
-    </value>
-    <statement name="DO0">
-      <block type="movement_forward" id="10">
+  <block type="movement_forward" id="74" x="39" y="17">
+    <next>
+      <block type="movement_reverse" id="84">
         <next>
-          <block type="robot_delay" id="22" inline="true">
+          <block type="robot_delay" id="86" inline="true">
             <value name="DELAY">
-              <block type="math_number" id="29">
-                <field name="NUM">4000</field>
+              <block type="math_number" id="93">
+                <field name="NUM">2000</field>
               </block>
             </value>
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
