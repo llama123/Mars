@@ -3,9 +3,6 @@
     <next>
       <block type="comment_comment" id="134">
         <field name="TEXT">hello</field>
-        <next>
-          <block type="movement_stop" id="145"></block>
-        </next>
       </block>
     </next>
   </block>
