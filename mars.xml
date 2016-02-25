@@ -15,20 +15,24 @@
                   <block type="robot_delay" id="195" inline="true">
                     <value name="DELAY">
                       <block type="math_number" id="202">
-                        <field name="NUM">5000</field>
+                        <field name="NUM">3000</field>
                       </block>
                     </value>
                     <next>
-                      <block type="movement_stutter" id="192">
+                      <block type="movement_stop" id="281">
                         <next>
-                          <block type="robot_delay" id="264" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="271">
-                                <field name="NUM">2000</field>
-                              </block>
-                            </value>
+                          <block type="movement_stutter" id="192">
                             <next>
-                              <block type="movement_stop" id="219"></block>
+                              <block type="robot_delay" id="264" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="271">
+                                    <field name="NUM">2000</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="movement_stop" id="219"></block>
+                                </next>
+                              </block>
                             </next>
                           </block>
                         </next>
