@@ -1,8 +1,10 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="132" x="30" y="23">
     <next>
-      <block type="comment_comment" id="134">
-        <field name="TEXT">hello</field>
+      <block type="movement_reverse" id="156">
+        <next>
+          <block type="movement_stutter" id="192"></block>
+        </next>
       </block>
     </next>
   </block>
