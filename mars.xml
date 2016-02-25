@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="132" x="30" y="23">
+  <block type="movement_forward" id="132" x="-283" y="-82">
     <next>
       <block type="movement_reverse" id="156">
         <next>
