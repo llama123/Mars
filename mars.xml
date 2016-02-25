@@ -1,15 +1,19 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <block type="movement_forward" id="18" x="0" y="33">
     <next>
-      <block type="movement_left" id="28">
+      <block type="movement_stop" id="93">
         <next>
-          <block type="movement_stop" id="45">
+          <block type="movement_left" id="28">
             <next>
-              <block type="movement_stutter" id="55">
+              <block type="movement_stop" id="45">
                 <next>
-                  <block type="movement_stop" id="72">
+                  <block type="movement_stutter" id="55">
                     <next>
-                      <block type="movement_reverse" id="83"></block>
+                      <block type="movement_stop" id="72">
+                        <next>
+                          <block type="movement_reverse" id="83"></block>
+                        </next>
+                      </block>
                     </next>
                   </block>
                 </next>
